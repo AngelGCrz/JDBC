@@ -8,8 +8,8 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 public class Conexion {
-
-	private static final String JDBC_URL = "jdbc:mysql//localhost:3306/test?useSSL=false&useTimeZone=true&serverTimeZone=UTF&AllorPublicKeyRetrieval=true";
+																		
+	private static final String JDBC_URL = "jdbc:mysql://localhost:3306/test?useSSL=false&useTimeZone=true&serverTimeZone=UTC&allowPublicKeyRetrieval=true";
 	private static final String JDBC_ROOT = "root";
 	private static final String JDBC_PASS = "1224";
 	

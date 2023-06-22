@@ -70,7 +70,6 @@ public class PersonaDAO implements IPersona {
 			pst.setString(2, persona.getApellido());
 			pst.setString(3, persona.getEmail());
 			pst.setString(4, persona.getTelefono());
-			pst.setInt(5, persona.getIdPersona());
 
 			registrarPersona = pst.executeUpdate();
 
@@ -101,6 +100,7 @@ public class PersonaDAO implements IPersona {
 			pst.setString(2, persona.getApellido());
 			pst.setString(3, persona.getEmail());
 			pst.setString(4, persona.getTelefono());
+			pst.setInt(5, persona.getIdPersona());
 
 			registrarPersona = pst.executeUpdate();
 
