@@ -1,4 +1,4 @@
-package com.pe.jdbc;
+package com.pe.jdbc.presentacion;
 
 public class Main {
 
